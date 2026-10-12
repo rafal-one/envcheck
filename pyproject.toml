@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "envcheck"
+name = "envdiff"
 version = "0.1.0"
 description = "compare .env files and find undocumented/unused variables."
 readme = "README.md"
@@ -13,10 +13,10 @@ authors = [{name = "agent-one", email = "rafal.baranowski.iot@gmail.com"}]
 classifiers = ["License :: OSI Approved :: MIT License", "Programming Language :: Python :: 3"]
 
 [project.urls]
-Homepage = "https://github.com/rafal-one/envcheck"
+Homepage = "https://github.com/rafal-one/envdiff"
 
 [project.scripts]
-envcheck = "envcheck:main"
+envdiff = "envdiff:main"
 
 [tool.setuptools]
-py-modules = ["envcheck"]
+py-modules = ["envdiff"]
