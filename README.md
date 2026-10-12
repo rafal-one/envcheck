@@ -17,3 +17,5 @@ MIT
 
 ## Support
 If this saved you time: PayPal `4433@vp.pl`.
+
+Donate: https://paypal.me/RafalBaranowski
