@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "envdiff"
+name = "envdiff-lint"
 version = "0.1.0"
 description = "compare .env files and find undocumented/unused variables."
 readme = "README.md"

@@ -1,5 +1,7 @@
 # envdiff
 
+
+Install: `pip install envdiff-lint` (command: `envdiff`)
 Single-file, zero-dependency tool that keeps `.env` and `.env.example` honest.
 It reports variables missing from `.env`, undocumented ones, empty values,
 documented-but-unused variables, and variables read in code (Python, JS/TS,
